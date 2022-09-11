@@ -36,7 +36,7 @@ public class ChessGame implements Chess {
             Piece piece = new Piece();
             bishop.move();
 
-           // pice.setMoveBehavior(new BishopBehavior());
+           pice.setMoveBehavior(new BishopBehavior());
             whiteTurn = false;
 
         } else {
